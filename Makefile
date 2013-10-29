@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=-g -Wall
-SOURCES=run.cpp algo.cpp taxonomy.cpp utility.cpp
+SOURCES=src/run.cpp src/algo.cpp src/taxonomy.cpp src/utility.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=MeTaxa
 all:$(SOURCES) $(EXECUTABLE)
@@ -11,4 +11,4 @@ $(EXECUTABLE):$(OBJECTS)
 		$(CC) $(CFLAGS) $< -o $@
 		
 clean:
-		rm -rf *.o
+		rm -rf src/*.o
