@@ -6,7 +6,7 @@ __date__ = 'November 2013'
 
 
 """
-This script is part of the MeTaxa package and it's under GNU License v3.0
+This script is part of the MyTaxa package and it's under GNU License v3.0
 
 Copyright(c) 2013 Chengwei Luo (luo.chengwei@gatech.edu), Konstantinidis Laboratory,
 			Georgia Institute of Technology.
@@ -24,10 +24,10 @@ Copyright(c) 2013 Chengwei Luo (luo.chengwei@gatech.edu), Konstantinidis Laborat
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-https://github.com/luo-chengwei/MeTaxa
+https://github.com/luo-chengwei/MyTaxa
 
 for help, type:
-python metaxa_prep.py --help
+python mytaxa_prep.py --help
 """
 
 USAGE = \
@@ -36,8 +36,8 @@ USAGE = \
 Add --help to see a full list of required and optional
 arguments to run this script.
 
-If you use MeTaxa in your work, please cite it as:
-<MeTaxa citation here>
+If you use MyTaxa in your work, please cite it as:
+<MyTaxa citation here>
 
 Copyright: Chengwei Luo, Konstantinidis Lab, Georgia Institute of Technology, 2013
 """

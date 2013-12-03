@@ -6,7 +6,7 @@ __date__ = 'November 2013'
 
 
 """
-This script is part of the MeTaxa package and it's under GNU License v3.0
+This script is part of the MyTaxa package and it's under GNU License v3.0
 
 Copyright(c) 2013 Chengwei Luo (luo.chengwei@gatech.edu), Konstantinidis Laboratory,
 			Georgia Institute of Technology.
@@ -24,14 +24,12 @@ Copyright(c) 2013 Chengwei Luo (luo.chengwei@gatech.edu), Konstantinidis Laborat
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-https://github.com/luo-chengwei/MeTaxa
+https://github.com/luo-chengwei/MyTaxa
 
-for help, type:
-python metaxa_prep.py --help
 """
 
 USAGE = \
-"""Usage: %prog <required_parameters> [options]
+"""Usage: %prog
 
 Add --help to see a full list of required and optional
 arguments to run metaHGT.
@@ -47,5 +45,37 @@ Copyright: Chengwei Luo, Konstantinidis Lab, Georgia Institute of Technology, 20
 
 import sys
 import os
-import re
-import glob
+import urllib2
+
+
+url = "http://enve-omics.ce.gatech.edu/metaxa/db/db.latest.tar.gz"
+dir = './'
+
+file_name = dir + url.split('/')[-1]
+try:
+	u = urllib2.urlopen(url)
+except:
+	url = url = "http://enve-omics.ce.gatech.edu/mytaxa/db/db.latest.tar.gz"
+	u = urllib2.urlopen(url)
+
+f = open(file_name, 'wb')
+meta = u.info()
+file_size = int(meta.getheaders("Content-Length")[0])
+print "Downloading: %s Bytes: %s" % (file_name, file_size)
+
+file_size_dl = 0
+block_sz = 8192
+while True:
+    buffer = u.read(block_sz)
+    if not buffer:
+        break
+
+    file_size_dl += len(buffer)
+    f.write(buffer)
+    status = r"%10d  [%3.2f%%]" % (file_size_dl, file_size_dl * 100. / file_size)
+    status = status + chr(8)*(len(status)+1)
+    print status,
+f.close()
+
+os.system('tar xzvf db.latest.tar.gz --directory ../')
+
