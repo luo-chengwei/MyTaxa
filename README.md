@@ -23,7 +23,11 @@ This will generate the executable binaries for
 
 If you haven't manually downloaded the pre-calculated database files and file them in /MyTaxa/db, you need to run:
 
-$python utils/download_db.py
+$ python utils/download_db.py
+
+and then decompress it by running:
+
+$ tar xzvf db.latest.tar.gz
 
 You should be all set after this.
 
