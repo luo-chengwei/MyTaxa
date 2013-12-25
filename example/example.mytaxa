@@ -1,0 +1,622 @@
+A:contig00025	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00034	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00055	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00134	Genus	0.584906	2745
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Halomonadaceae;<genus>Halomonas
+A:contig00145	Species	0.6	317
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas syringae group;<species subgroup>Pseudomonas syringae group genomosp. 1;<species>Pseudomonas syringae
+A:contig00192	Phylum	1	976
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes
+A:contig00212	Genus	0.505689	914
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Nitrosomonadales;<family>Nitrosomonadaceae;<genus>Nitrosomonas
+A:contig00235	Genus	0.8	32008
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Burkholderia
+A:contig00246	Species	0.666667	80866
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Comamonadaceae;<genus>Delftia;<species>Delftia acidovorans
+A:contig00272	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00315	Species	0.6	518
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Alcaligenaceae;<genus>Bordetella;<species>Bordetella bronchiseptica
+A:contig00335	Species	1	305
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Ralstonia;<species>Ralstonia solanacearum
+A:contig00353	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00489	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig00502	Genus	0.8	1227
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Chromatiales;<family>Chromatiaceae;<genus>Nitrosococcus
+A:contig00547	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00590	Species	1.28205	1031
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Thiotrichales;<family>Thiotrichaceae;<genus>Thiothrix;<species>Thiothrix nivea
+A:contig00626	Genus	0.716418	35823
+<superkingdom>Bacteria;<phylum>Cyanobacteria;<subclass>Oscillatoriophycideae;<order>Oscillatoriales;<genus>Arthrospira
+A:contig00657	Species	1.12676	1063
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Rhodobacteraceae;<genus>Rhodobacter;<species>Rhodobacter sphaeroides
+A:contig00668	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00679	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00713	Genus	0.710937	85
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Hyphomonadaceae;<genus>Hyphomonas
+A:contig00739	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00762	Species	1	83406
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<species>gamma proteobacterium HdN1
+A:contig00786	Genus	0.8125	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig00831	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00907	Genus	0.607843	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig00927	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig00949	Species	1.16279	280
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Xanthobacteraceae;<genus>Xanthobacter;<species>Xanthobacter autotrophicus
+A:contig00987	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01041	Phylum	0.801498	1239
+<superkingdom>Bacteria;<phylum>Firmicutes
+A:contig01108	Genus	0.803371	165696
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Sphingomonadales;<family>Sphingomonadaceae;<genus>Novosphingobium
+A:contig01134	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01155	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01180	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01209	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01229	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01257	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01303	Species	0.6	2743
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Alteromonadaceae;<genus>Marinobacter;<species>Marinobacter hydrocarbonoclasticus
+A:contig01367	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01395	Phylum	1.20968	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01418	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig01448	Genus	0.954199	171
+<superkingdom>Bacteria;<phylum>Spirochaetes;<class>Spirochaetia;<order>Spirochaetales;<family>Leptospiraceae;<genus>Leptospira
+A:contig01475	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01485	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01505	Species	1.08696	81032
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Hyphomonadaceae;<genus>Hyphomonas;<species>Hyphomonas neptunium
+A:contig01521	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01582	Species	1	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig01611	Genus	0.838235	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig01638	Genus	1	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig01664	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01682	Genus	0.6	1227
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Chromatiales;<family>Chromatiaceae;<genus>Nitrosococcus
+A:contig01713	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01755	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01791	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig01844	Species	0.551724	447471
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<genus>Simiduia;<species>Simiduia agarivorans
+A:contig01861	Species	0.75	317
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas syringae group;<species subgroup>Pseudomonas syringae group genomosp. 1;<species>Pseudomonas syringae
+A:contig01901	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig01959	Genus	0.6	32008
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Burkholderia
+A:contig01994	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02020	Genus	0.809942	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig02062	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02093	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02141	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02165	Genus	0.745455	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig02185	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02240	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig02269	Species	1	244573
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Chromatiales;<family>Chromatiaceae;<genus>Thiocapsa;<species>Thiocapsa marina
+A:contig02297	Genus	0.687075	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig02341	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig02378	Genus	0.8	872
+<superkingdom>Bacteria;<phylum>Proteobacteria;<subphylum>delta/epsilon subdivisions;<class>Deltaproteobacteria;<order>Desulfovibrionales;<family>Desulfovibrionaceae;<genus>Desulfovibrio
+A:contig02413	Species	1.42857	173365
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Methylococcales;<family>Methylococcaceae;<genus>Methylobacter;<species>Methylobacter tundripaludum
+A:contig02438	Species	1	59754
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax;<species>Alcanivorax borkumensis
+A:contig02460	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02492	Species	1.11111	314254
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Hyphomonadaceae;<genus>Oceanicaulis;<species>Oceanicaulis sp. HTCC2633
+A:contig02541	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02570	Unknown	NA	NA
+NA
+A:contig02600	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02619	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02644	Phylum	0.8	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02775	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02801	Genus	0.509091	41275
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Caulobacterales;<family>Caulobacteraceae;<genus>Brevundimonas
+A:contig02825	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02853	Genus	0.586957	75309
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Xanthomonadales;<family>Xanthomonadaceae;<genus>Rhodanobacter
+A:contig02888	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig02970	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03019	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03047	Species	0.62069	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig03070	Genus	0.554054	379
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Rhizobiaceae;<genus>Rhizobium
+A:contig03127	Unknown	NA	NA
+NA
+A:contig03189	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03214	Genus	0.612245	75
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Caulobacterales;<family>Caulobacteraceae;<genus>Caulobacter
+A:contig03243	Genus	0.816326	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig03277	Genus	0.571429	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig03301	Species	0.564972	330
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species subgroup>Pseudomonas oleovorans/pseudoalcaligenes group;<species>Pseudomonas pseudoalcaligenes
+A:contig03336	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03369	Phylum	0.8	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03407	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03484	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03508	Species	0.8	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig03531	Genus	0.666667	106633
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Chromatiales;<family>Ectothiorhodospiraceae;<genus>Thioalkalivibrio
+A:contig03559	Genus	0.6	165696
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Sphingomonadales;<family>Sphingomonadaceae;<genus>Novosphingobium
+A:contig03589	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03628	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03654	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03698	Species	0.536193	193
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodospirillales;<family>Rhodospirillaceae;<genus>Azospirillum;<species>Azospirillum lipoferum
+A:contig03730	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig03765	Species	0.521739	236097
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax;<species>Alcanivorax sp. DG881
+A:contig03802	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03864	Phylum	0.75	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03898	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03942	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig03986	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04050	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04109	Genus	0.8	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig04126	Genus	0.862069	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig04162	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04207	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04246	Species	0.571429	916
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Nitrosomonadales;<family>Nitrosomonadaceae;<genus>Nitrosomonas;<species>Nitrosomonas eutropha
+A:contig04279	Genus	0.6	111142
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Alteromonadaceae;<genus>Alishewanella
+A:contig04378	Species	1	959
+<superkingdom>Bacteria;<phylum>Proteobacteria;<subphylum>delta/epsilon subdivisions;<class>Deltaproteobacteria;<order>Bdellovibrionales;<family>Bdellovibrionaceae;<genus>Bdellovibrio;<species>Bdellovibrio bacteriovorus
+A:contig04410	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04449	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04481	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig04519	Genus	0.666667	1763
+<superkingdom>Bacteria;<phylum>Actinobacteria;<class>Actinobacteria;<subclass>Actinobacteridae;<order>Actinomycetales;<suborder>Corynebacterineae;<family>Mycobacteriaceae;<genus>Mycobacterium
+A:contig04569	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04627	Species	1	817
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes;<class>Bacteroidia;<order>Bacteroidales;<family>Bacteroidaceae;<genus>Bacteroides;<species>Bacteroides fragilis
+A:contig04664	Species	1.47244	316
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas stutzeri group;<species subgroup>Pseudomonas stutzeri subgroup;<species>Pseudomonas stutzeri
+A:contig04741	Species	0.521739	160791
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Sphingomonadales;<family>Sphingomonadaceae;<genus>Sphingomonas;<species>Sphingomonas wittichii
+A:contig04776	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04807	Species	0.546448	927
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Chromatiales;<family>Halothiobacillaceae;<genus>Halothiobacillus;<species>Halothiobacillus neapolitanus
+A:contig04847	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04898	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig04982	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05028	Genus	0.607527	29574
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Alcaligenaceae;<genus>Taylorella
+A:contig05078	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05114	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05191	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05239	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05274	Genus	0.678571	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig05397	Unknown	NA	NA
+NA
+A:contig05435	Phylum	0.666667	203682
+<superkingdom>Bacteria;<phylum>Planctomycetes
+A:contig05483	Genus	0.57554	28067
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<genus>Rubrivivax
+A:contig05527	Phylum	0.824405	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05562	Genus	0.888889	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig05601	Phylum	0.72846	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05633	Species	1	256618
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Phyllobacteriaceae;<genus>Parvibaculum;<species>Parvibaculum lavamentivorans
+A:contig05669	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05711	Phylum	0.681614	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05740	Genus	0.8125	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig05802	Species	1	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig05844	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig05898	Genus	0.724409	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig05947	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig05973	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig06018	Species	1	349221
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<genus>Micavibrio;<species>Micavibrio aeruginosavorus
+A:contig06106	Genus	0.8	1386
+<superkingdom>Bacteria;<phylum>Firmicutes;<class>Bacilli;<order>Bacillales;<family>Bacillaceae;<genus>Bacillus
+A:contig06143	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig06206	Species	1.16279	971
+<superkingdom>Bacteria;<phylum>Firmicutes;<class>Negativicutes;<order>Selenomonadales;<family>Veillonellaceae;<genus>Selenomonas;<species>Selenomonas ruminantium
+A:contig06328	Genus	0.6	265488
+<superkingdom>Bacteria;<phylum>Planctomycetes;<class>Planctomycetia;<order>Planctomycetales;<family>Planctomycetaceae;<genus>Rhodopirellula
+A:contig06556	Species	0.717391	187493
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Oceanospirillaceae;<genus>Thalassolituus;<species>Thalassolituus oleivorans
+A:contig06616	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig06681	Species	0.62	393662
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<genus>Congregibacter;<species>Congregibacter litoralis
+A:contig06741	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig06801	Species	0.671875	256618
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Phyllobacteriaceae;<genus>Parvibaculum;<species>Parvibaculum lavamentivorans
+A:contig06855	Genus	0.658537	379
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Rhizobiaceae;<genus>Rhizobium
+A:contig06932	Species	0.6	1165
+<superkingdom>Bacteria;<phylum>Cyanobacteria;<order>Nostocales;<family>Nostocaceae;<genus>Anabaena;<species>Anabaena cylindrica
+A:contig07132	Genus	0.8	469
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Moraxellaceae;<genus>Acinetobacter
+A:contig07269	Species	0.8	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig07365	Phylum	0.800752	200795
+<superkingdom>Bacteria;<phylum>Chloroflexi
+A:contig07435	Species	0.657143	256618
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Phyllobacteriaceae;<genus>Parvibaculum;<species>Parvibaculum lavamentivorans
+A:contig07494	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig07551	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig07614	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig07682	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig07876	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig07985	Genus	1	53246
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Pseudoalteromonadaceae;<genus>Pseudoalteromonas
+A:contig08138	Species	0.537634	2743
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Alteromonadaceae;<genus>Marinobacter;<species>Marinobacter hydrocarbonoclasticus
+A:contig08201	Genus	0.934307	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig08251	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig08329	Genus	2.5	243627
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Xanthomonadales;<family>Sinobacteraceae;<genus>Hydrocarboniphaga
+A:contig08435	Genus	0.8	528
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Brucellaceae;<genus>Ochrobactrum
+A:contig08523	Genus	0.6	39773
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Methylococcales;<family>Methylococcaceae;<genus>Methylomicrobium
+A:contig08584	Species	0.60241	316
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas stutzeri group;<species subgroup>Pseudomonas stutzeri subgroup;<species>Pseudomonas stutzeri
+A:contig08645	Genus	0.602041	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig08689	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig08741	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig08793	Species	1	28450
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Burkholderia;<species group>pseudomallei group;<species>Burkholderia pseudomallei
+A:contig08838	Genus	0.607843	40222
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Thiotrichales;<family>Piscirickettsiaceae;<genus>Methylophaga
+A:contig08902	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig09094	Genus	0.583333	28231
+<superkingdom>Bacteria;<phylum>Proteobacteria;<subphylum>delta/epsilon subdivisions;<class>Deltaproteobacteria;<order>Desulfuromonadales;<family>Geobacteraceae;<genus>Geobacter
+A:contig09149	Genus	1	2053
+<superkingdom>Bacteria;<phylum>Actinobacteria;<class>Actinobacteria;<subclass>Actinobacteridae;<order>Actinomycetales;<suborder>Corynebacterineae;<family>Gordoniaceae;<genus>Gordonia
+A:contig09217	Genus	0.8	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig09440	Species	1.71053	316
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas stutzeri group;<species subgroup>Pseudomonas stutzeri subgroup;<species>Pseudomonas stutzeri
+A:contig09500	Species	0.508475	450
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Legionellales;<family>Legionellaceae;<genus>Legionella;<species>Legionella longbeachae
+A:contig09545	Species	0.555556	256618
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Phyllobacteriaceae;<genus>Parvibaculum;<species>Parvibaculum lavamentivorans
+A:contig09685	Unknown	NA	NA
+NA
+A:contig09739	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig09942	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig09998	Genus	0.508475	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig10066	Phylum	1	976
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes
+A:contig10120	Genus	1	469
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Moraxellaceae;<genus>Acinetobacter
+A:contig10187	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig10254	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig10379	Genus	0.76087	28253
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Oceanospirillaceae;<genus>Marinomonas
+A:contig10466	Genus	0.75	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig10530	Species	0.526316	519051
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax;<species>Alcanivorax hongdengensis
+A:contig10590	Genus	0.588235	22
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Shewanellaceae;<genus>Shewanella
+A:contig10656	Species	1.42857	769
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rickettsiales;<family>Anaplasmataceae;<genus>Anaplasma;<species>Anaplasma centrale
+A:contig10713	Genus	0.632231	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig10782	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig10853	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig10929	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig11075	Phylum	1	976
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes
+A:contig11141	Species	0.613636	1076
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Bradyrhizobiaceae;<genus>Rhodopseudomonas;<species>Rhodopseudomonas palustris
+A:contig11200	Phylum	1	1239
+<superkingdom>Bacteria;<phylum>Firmicutes
+A:contig11273	Phylum	1	976
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes
+A:contig11333	Species	0.615385	303
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas putida group;<species>Pseudomonas putida
+A:contig11489	Species	1.13636	758826
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Comamonadaceae;<genus>Acidovorax;<species>Acidovorax radicis
+A:contig11548	Genus	0.6	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig11604	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig11743	Genus	0.505689	613
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Enterobacteriales;<family>Enterobacteriaceae;<genus>Serratia
+A:contig11877	Genus	0.802867	662
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Vibrionales;<family>Vibrionaceae;<genus>Vibrio
+A:contig11952	Species	0.6	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig12027	Phylum	0.6	201174
+<superkingdom>Bacteria;<phylum>Actinobacteria
+A:contig12094	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig12168	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig12208	Genus	1	48736
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Ralstonia
+A:contig12272	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig12336	Genus	1	97050
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Rhodobacteraceae;<genus>Ruegeria
+A:contig12451	Species	1.62602	363277
+<superkingdom>Bacteria;<phylum>Chloroflexi;<class>Ktedonobacteria;<order>Ktedonobacterales;<family>Ktedonobacteraceae;<genus>Ktedonobacter;<species>Ktedonobacter racemifer
+A:contig12699	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig12780	Phylum	0.6	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig12855	Genus	0.642857	32008
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Burkholderia
+A:contig12917	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig12981	Species	0.553191	349221
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<genus>Micavibrio;<species>Micavibrio aeruginosavorus
+A:contig13047	Genus	1	97050
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Rhodobacteraceae;<genus>Ruegeria
+A:contig13132	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig13197	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig13262	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig13333	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig13487	Genus	0.631098	237
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes;<class>Flavobacteriia;<order>Flavobacteriales;<family>Flavobacteriaceae;<genus>Flavobacterium
+A:contig13547	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig13615	Genus	0.54	191
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodospirillales;<family>Rhodospirillaceae;<genus>Azospirillum
+A:contig13679	Genus	0.846154	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig13752	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig13882	Species	1	247633
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<species>marine gamma proteobacterium HTCC2143
+A:contig13953	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig14077	Species	0.575758	256618
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Phyllobacteriaceae;<genus>Parvibaculum;<species>Parvibaculum lavamentivorans
+A:contig14141	Species	0.51282	57975
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Betaproteobacteria;<order>Burkholderiales;<family>Burkholderiaceae;<genus>Burkholderia;<species group>pseudomallei group;<species>Burkholderia thailandensis
+A:contig14213	Genus	0.75	44249
+<superkingdom>Bacteria;<phylum>Firmicutes;<class>Bacilli;<order>Bacillales;<family>Paenibacillaceae;<genus>Paenibacillus
+A:contig14283	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig14399	Species	1	349221
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<genus>Micavibrio;<species>Micavibrio aeruginosavorus
+A:contig14466	Species	1.07527	332163
+<superkingdom>Bacteria;<superphylum>Fibrobacteres/Acidobacteria group;<phylum>Acidobacteria;<class>Solibacteres;<order>Solibacterales;<family>Solibacteraceae;<genus>Candidatus Solibacter;<species>Candidatus Solibacter usitatus
+A:contig14537	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig14595	Genus	0.72973	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig14744	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig14804	Species	1	293
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Caulobacterales;<family>Caulobacteraceae;<genus>Brevundimonas;<species>Brevundimonas diminuta
+A:contig14859	Genus	0.666667	75309
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Xanthomonadales;<family>Xanthomonadaceae;<genus>Rhodanobacter
+A:contig14928	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig14991	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig15061	Species	1.41844	631362
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Chromatiales;<family>Chromatiaceae;<genus>Thiorhodovibrio;<species>Thiorhodovibrio sp. 970
+A:contig15142	Species	0.8	316
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas stutzeri group;<species subgroup>Pseudomonas stutzeri subgroup;<species>Pseudomonas stutzeri
+A:contig15200	Genus	1	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig15266	Species	1	236097
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax;<species>Alcanivorax sp. DG881
+A:contig15345	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig15428	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig15661	Genus	0.745342	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig15749	Genus	0.8	89404
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Alteromonadaceae;<genus>Glaciecola
+A:contig15961	Genus	0.689655	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig16040	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig16123	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig16277	Species	1	287
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas;<species group>Pseudomonas aeruginosa group;<species>Pseudomonas aeruginosa
+A:contig16348	Species	0.790698	40324
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Xanthomonadales;<family>Xanthomonadaceae;<genus>Stenotrophomonas;<species>Stenotrophomonas maltophilia
+A:contig16420	Genus	0.661972	97050
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhodobacterales;<family>Rhodobacteraceae;<genus>Ruegeria
+A:contig16496	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig16766	Phylum	0.567568	976
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes
+A:contig16918	Genus	0.596774	194
+<superkingdom>Bacteria;<phylum>Proteobacteria;<subphylum>delta/epsilon subdivisions;<class>Epsilonproteobacteria;<order>Campylobacterales;<family>Campylobacteraceae;<genus>Campylobacter
+A:contig16971	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig17044	Species	0.519481	550
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Enterobacteriales;<family>Enterobacteriaceae;<genus>Enterobacter;<species group>Enterobacter cloacae complex;<species>Enterobacter cloacae
+A:contig17190	Species	0.666667	644
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Aeromonadales;<family>Aeromonadaceae;<genus>Aeromonas;<species>Aeromonas hydrophila
+A:contig17263	Species	1	28901
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Enterobacteriales;<family>Enterobacteriaceae;<genus>Salmonella;<species>Salmonella enterica
+A:contig17340	Species	1	349221
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<genus>Micavibrio;<species>Micavibrio aeruginosavorus
+A:contig17477	Phylum	0.619048	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig17553	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig17633	Genus	0.6	374
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Alphaproteobacteria;<order>Rhizobiales;<family>Bradyrhizobiaceae;<genus>Bradyrhizobium
+A:contig17703	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig17781	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig17857	Genus	1.15369	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig18008	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig18078	Genus	1	286
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Pseudomonadales;<family>Pseudomonadaceae;<genus>Pseudomonas
+A:contig18147	Genus	0.89	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig18370	Genus	0.771084	59753
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Oceanospirillales;<family>Alcanivoracaceae;<genus>Alcanivorax
+A:contig18430	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig18501	Phylum	0.585366	1239
+<superkingdom>Bacteria;<phylum>Firmicutes
+A:contig18640	Phylum	0.6	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig18846	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig18961	Phylum	0.672256	200918
+<superkingdom>Bacteria;<phylum>Thermotogae
+A:contig19097	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig19256	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig19326	Species	1.6875	666
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Vibrionales;<family>Vibrionaceae;<genus>Vibrio;<species>Vibrio cholerae
+A:contig19402	Species	0.81761	2743
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Alteromonadaceae;<genus>Marinobacter;<species>Marinobacter hydrocarbonoclasticus
+A:contig19466	Species	1.03627	1006
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes;<class>Cytophagia;<order>Cytophagales;<family>Flammeovirgaceae;<genus>Marivirga;<species>Marivirga tractuosa
+A:contig19554	Phylum	0.66879	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig19645	Genus	0.8	53246
+<superkingdom>Bacteria;<phylum>Proteobacteria;<class>Gammaproteobacteria;<order>Alteromonadales;<family>Pseudoalteromonadaceae;<genus>Pseudoalteromonas
+A:contig19803	Unknown	NA	NA
+NA
+A:contig19873	Species	1.28205	873
+<superkingdom>Bacteria;<phylum>Proteobacteria;<subphylum>delta/epsilon subdivisions;<class>Deltaproteobacteria;<order>Desulfovibrionales;<family>Desulfovibrionaceae;<genus>Desulfovibrio;<species>Desulfovibrio africanus
+A:contig19948	Species	0.528302	104
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes;<class>Cytophagia;<order>Cytophagales;<family>Cyclobacteriaceae;<genus>Cyclobacterium;<species>Cyclobacterium marinum
+A:contig20018	Species	0.666667	393060
+<superkingdom>Bacteria;<superphylum>Bacteroidetes/Chlorobi group;<phylum>Bacteroidetes;<class>Flavobacteriia;<order>Flavobacteriales;<family>Flavobacteriaceae;<genus>Mesoflavibacter;<species>Mesoflavibacter zeaxanthinifaciens
+A:contig20184	Phylum	1	1224
+<superkingdom>Bacteria;<phylum>Proteobacteria
+A:contig20248	Unknown	NA	NA
+NA
