@@ -48,14 +48,14 @@ import os
 import urllib2
 
 
-url = "http://enve-omics.ce.gatech.edu/metaxa/db/db.latest.tar.gz"
+url = "http://enve-omics.ce.gatech.edu/mytaxa/db/db.latest.tar.gz"
 dir = './'
 
 file_name = dir + url.split('/')[-1]
 try:
 	u = urllib2.urlopen(url)
 except:
-	url = url = "http://enve-omics.ce.gatech.edu/mytaxa/db/db.latest.tar.gz"
+	url = "http://enve-omics.ce.gatech.edu/mytaxa/db/db.latest.tar.gz"
 	u = urllib2.urlopen(url)
 
 f = open(file_name, 'wb')

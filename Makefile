@@ -3,7 +3,7 @@ CFLAGS=-c -Wall
 LDFLAGS=-g -Wall
 SOURCES=src/run.cpp src/algo.cpp src/taxonomy.cpp src/utility.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=MeTaxa
+EXECUTABLE=MyTaxa
 all:$(SOURCES) $(EXECUTABLE)
 $(EXECUTABLE):$(OBJECTS)
 		$(CC) $(LDFLAGS) $(OBJECTS) -o $@
