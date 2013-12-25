@@ -33,8 +33,10 @@ All you need is a gff file and a blast-like tabular file. In the gff file are th
 
 You then should run "utils/infile_convert.pl" to generate the input file for MyTaxa, and then you should run
 
-$ MyTaxa <infile> [thr] [num_hits]
+$ MyTaxa [infile] [outfile] [thr] [num_hits]
 
 thr is the threshold of scores (0-1) you define, and num_hits is the number of hits in the searching results to use (recommend 5)
 
 The output is an XML style file with taxonomic information for each query sequence.
+
+<strong>Please refer to the manual for detailed information on how to run it.</strong>
