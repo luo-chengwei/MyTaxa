@@ -56,8 +56,8 @@ if($o{f} ne 'no'){
       if($o{f} eq 'gff2'){
 	 exists $ln[8] or die "Cannot parse line $.: $_\n";
 	 my $id = $ln[8];
-	 $id =~ s/gene_id /gene_id_/;
-	 $ln[0] =~ s/ .*//;
+	 $id =~ s/gene_id[ =]/gene_id_/;
+	 $ln[0] =~ s/[ ,].*//;
 	 $gene{$id} = [$ln[0], (1+$ln[4]-$ln[3])/3];
       }elsif($o{f} eq 'gff3'){
 	 exists $ln[8] or die "Cannot parse line $.: $_\n";
