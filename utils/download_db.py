@@ -76,6 +76,7 @@ while True:
     status = status + chr(8)*(len(status)+1)
     print status,
 f.close()
+print ""
 
-os.system('tar xzvf db.latest.tar.gz --directory ../')
+os.system('tar xzvf db.latest.tar.gz --directory '+os.path.dirname(sys.argv[0])+'/../')
 
