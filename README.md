@@ -7,7 +7,7 @@ Author: Chengwei Luo, Luis Miguel Roderiguez-R, and Konstantinos Konstantinidis
 
 Copyright (C): Konstantinidis Lab, Georgia Tech, 2013
 
-Citation: Chengwei Luo, Luis Miguel Roderiguez-R, and Konstantinos T. Konstantinidis, MyTaxa: an advanced taxonomic classifier for genomic and metagenomic sequences. Nucleic Acids Research (in review).
+Citation: Chengwei Luo, Luis Miguel Roderiguez-R, and Konstantinos T. Konstantinidis, MyTaxa: an advanced taxonomic classifier for genomic and metagenomic sequences. 2014, Nucleic Acids Research.
 
 [What does it do?]
 ====================
