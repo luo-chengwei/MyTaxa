@@ -1,6 +1,6 @@
 /*
 
-	This file is part of MeTaxa by Chengwei Luo (luo.chengwei@gatech.edu)
+	This file is part of MyTaxa by Chengwei Luo (luo.chengwei@gatech.edu)
     Konstantinidis Lab, Georgia Institute of Technology, 2013
 
 */
@@ -21,11 +21,11 @@ using namespace std;
 void printUsage()
 {
 	cout << "#############################################################################################" << endl;
-	cout << "MeTaxa: an advanced taxonomy classifier for metagenomic and genomic sequences" <<endl;
+	cout << "MyTaxa: an advanced taxonomy classifier for metagenomic and genomic sequences" <<endl;
 	cout << "Version: " << VERSION_NUMBER << ".";
 	cout << RELEASE_NUMBER << "." << UPDATE_NUMBER << endl;
 	cout << "Usage:" << endl;
-	cout << "MeTaxa <input file> <output file> ";
+	cout << "MyTaxa <input file> <output file> ";
 	cout << "<score cutoff> <num of hit to use>" << endl;
 	cout << "## [Format of input file]:" << endl;
 	cout << "\tBased on blast -m 8 output format, for each blast-like output line," << endl;
