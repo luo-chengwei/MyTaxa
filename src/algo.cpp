@@ -25,6 +25,9 @@ using namespace std;
 
 Sequence *newSequence(){
 	Sequence *seq = callocOrExit(1, Sequence);
+	seq->seqName.clear();
+	seq->genes.clear();
+	seq->seqTaxonForest.clear();
 	return seq;
 }
 
@@ -86,45 +89,76 @@ void Sequence::printSeq(){
 
 
 // information loaders
-vector<Sequence> loadInfoFromInputFile(const char* infile, int N){
+vector<Sequence> loadInfoFromInputFile(const char* infile){
 	FILE *inputFile = fopen(infile, "r");
 	vector<Sequence> querySeqs;
 	
 	int maxLine = 5000;
 	char line[maxLine];
 	char delim = '\t';
+	vector<string> elems;
 	string oldQuery = "";
 	string oldGene = "";
 		
 	while(fgets(line, maxLine, inputFile) != NULL){
-		vector<string> elems = split(string(line), delim);
+		elems.clear();
+		elems = split(string(line), delim);
 		string queryName = elems[12];
 		string geneName = elems[13];
 		IDnum geneGI = atoi(elems[14].c_str());
 		float identity = atof(elems[2].c_str());
 		float bitscore = atof(elems[11].c_str());
 		
+		if(identity < 40 || bitscore < 50){
+			continue;
+		}
+		
 		if(oldQuery.compare(queryName) != 0){
-			oldQuery.assign(queryName);
+			oldQuery = queryName;
 			Sequence querySequence;
 			querySequence.seqName.assign(queryName);
 			querySeqs.push_back(querySequence);
 		}
 		
 		if(oldGene.compare(geneName) != 0){
-			oldGene.assign(geneName);
+			oldGene = geneName;
 			Gene queryGene;
 			querySeqs.back().genes.push_back(queryGene);
 		}
 		
-		if(querySeqs.back().genes.back().gis.size() < (unsigned int) N){
+		// this is the part we need to fix
+		// if the new entry's bitscore is within the range of > 0.9*current_min_score
+		// then we add this new entry, also clean up the gene registry if the new entry's
+		// bitscore is higher than the current_min_score;
+		
+		if (bitscore >= 0.9 * querySeqs.back().genes.back().min_current_bitscore()){
 			querySeqs.back().genes.back().gis.push_back(geneGI);
 			querySeqs.back().genes.back().identity.push_back(identity);
 			querySeqs.back().genes.back().bitscore.push_back(bitscore);
+			querySeqs.back().genes.back().organize_entries();
 		}
 	}
 	
 	fclose(inputFile);
+	
+	/*
+	for(vector<Sequence>::iterator it = querySeqs.begin(); it != querySeqs.end(); ++it){
+		cout << it->seqName << endl;
+		int gene_index = 0;
+		for(vector<Gene>::iterator git = it->genes.begin(); git != it->genes.end(); ++git){
+			gene_index++;
+			cout << "Gene " << gene_index << endl;
+			for(vector<IDnum>::iterator idit = git->gis.begin(); idit != git->gis.end(); ++idit){
+				cout << *idit << ' ';
+			}
+			cout << endl;
+			for(vector<float>::iterator idit = git->bitscore.begin(); idit != git->bitscore.end(); ++idit){
+				cout << *idit << ' ';
+			}
+			cout << "Minimum bitscore: " << git->min_current_bitscore() << endl;
+		}
+	}
+	*/
 
 	return querySeqs;
 }
@@ -403,7 +437,7 @@ void addToSeqTaxonPaths(vector<IDRank> tPath, map<IDnum, PathNode*> &seqTaxonFor
 vector<IDnum> getTaxonIDAtThreeRanks(TaxonTree *tTree, IDnum leafTaxonID){
 	vector<IDnum> taxonIDs;
 	vector<IDRank> idr = taxonomyPathIDRank(tTree, leafTaxonID);
-	IDnum phylum=0, genus=0, species=0;
+	IDnum phylum, genus, species;
 	
 	for(unsigned int index = 0; index < idr.size(); index++){
 		IDnum taxonID = idr[index].taxonID;
@@ -428,10 +462,9 @@ vector<IDnum> getTaxonIDAtThreeRanks(TaxonTree *tTree, IDnum leafTaxonID){
 
 // calculate the likelihood of taxonomy for query sequences;
 void likelihoodCal(TaxonTree *tTree, vector<Sequence> &QuerySeq){
+	
 	for(unsigned int seqIndex = 0; seqIndex < QuerySeq.size(); seqIndex++){
 		// load all possible taxonomy paths onto query sequences;
-		QuerySeq[seqIndex].seqTaxonForest.clear();
-		
 		for(vector<gene_st>::iterator git = QuerySeq[seqIndex].genes.begin();
 				git != QuerySeq[seqIndex].genes.end(); ++ git){
 			for(vector<IDnum>::iterator tit = git->taxonIDs.begin();
@@ -474,9 +507,10 @@ void likelihoodCal(TaxonTree *tTree, vector<Sequence> &QuerySeq){
 				
 				vector<IDnum> taxonIDs = getTaxonIDAtThreeRanks(tTree, leafTaxonID);
 				
-				if(taxonIDs[0] == 0 or taxonIDs[1] ==0 or taxonIDs[2] == 0){
+				if(taxonIDs[0] == 0 or taxonIDs[1] == 0 or taxonIDs[2] == 0){
 					continue;
 				}
+				
 				
 				PathNode* phylumNode = QuerySeq[seqIndex].seqTaxonForest.find(taxonIDs[0])->second;
 				PathNode* genusNode = QuerySeq[seqIndex].seqTaxonForest.find(taxonIDs[1])->second;
@@ -544,7 +578,6 @@ void likelihoodCal(TaxonTree *tTree, vector<Sequence> &QuerySeq){
 				speciesNodes[index]->likelihood = 1.0;
 			}
 		}
-		
 	}//end of for loop;
 	
 	//end of function;
@@ -561,6 +594,7 @@ void writeResultsToOutputFile(const char* outfile, TaxonTree *tTree, TaxonName *
 		// start with species level;
 		vector<PathNode*> speciesNodes;
 		map<IDnum, PathNode*>::iterator forestIt;
+		string seqName = QuerySeq[seqIndex].seqName;
 		
 		for(forestIt = QuerySeq[seqIndex].seqTaxonForest.begin(); 
 			forestIt != QuerySeq[seqIndex].seqTaxonForest.end(); forestIt++){
@@ -585,7 +619,7 @@ void writeResultsToOutputFile(const char* outfile, TaxonTree *tTree, TaxonName *
 			vector<NameRank> path = taxonomyPath(tTree, tName, speciesID);
 			string pathString = taxonomyPathString(path);
 			// write to file;
-			outputFile << QuerySeq[seqIndex].seqName << "\tSpecies\t" << maxSpeciesLLH << "\t" << speciesID << endl;
+			outputFile << seqName << "\tSpecies\t" << maxSpeciesLLH << "\t" << speciesID << endl;
 			outputFile << pathString << endl;
 			continue;
 		}
@@ -616,7 +650,7 @@ void writeResultsToOutputFile(const char* outfile, TaxonTree *tTree, TaxonName *
 			vector<NameRank> path = taxonomyPath(tTree, tName, genusID);
 			string pathString = taxonomyPathString(path);
 			// write to file;
-			outputFile << QuerySeq[seqIndex].seqName << "\tGenus\t" << maxGenusLLH << "\t" << genusID << endl;
+			outputFile << seqName << "\tGenus\t" << maxGenusLLH << "\t" << genusID << endl;
 			outputFile << pathString << endl;
 			continue;
 		}
@@ -648,7 +682,7 @@ void writeResultsToOutputFile(const char* outfile, TaxonTree *tTree, TaxonName *
 			string pathString = taxonomyPathString(path);
 			// write to file;
 			
-			outputFile << QuerySeq[seqIndex].seqName << "\tPhylum\t" << maxPhylumLLH << "\t" << phylumID << endl;
+			outputFile << seqName << "\tPhylum\t" << maxPhylumLLH << "\t" << phylumID << endl;
 			outputFile << pathString << endl;
 			continue;
 		}
@@ -656,7 +690,7 @@ void writeResultsToOutputFile(const char* outfile, TaxonTree *tTree, TaxonName *
 		// no phylum level satisfies threshold, mark as novel;
 		// write to file as novel;
 		
-		outputFile << QuerySeq[seqIndex].seqName << "\tUnknown\tNA\tNA" << endl;
+		outputFile << seqName << "\tUnknown\tNA\tNA" << endl;
 		outputFile << "NA" << endl;
 	}
 	

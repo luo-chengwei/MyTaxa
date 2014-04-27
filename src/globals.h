@@ -35,6 +35,9 @@
 #define W21  1
 #define W22  1
 
+// bitscore drop thr
+#define SCORE_DROP_THR 0.1
+
 // external structures here
 struct taxonNode_st;
 struct taxonTree_st;

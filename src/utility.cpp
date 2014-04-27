@@ -69,10 +69,11 @@ void exitErrorf(int exitStatus, bool showErrno, const char *format, ...)
        va_list args;
        va_start(args, format);
        if (programName)
-               fprintf(stderr, "%s: ", programName);
+            fprintf(stderr, "%s: ", programName);
        vfprintf(stderr, format, args);
-       if (showErrno)
-               fprintf(stderr, ": %s", strerror(savedErrno));
+       if (showErrno){
+        	fprintf(stderr, ": %s", strerror(savedErrno));
+        }
        fprintf(stderr, "\n");
        va_end(args);
 }

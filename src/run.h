@@ -1,6 +1,6 @@
 /*
 
-	This file is part of MyTaxa by Chengwei Luo (luo.chengwei@gatech.edu)
+	This file is part of MeTaxa by Chengwei Luo (luo.chengwei@gatech.edu)
     Konstantinidis Lab, Georgia Institute of Technology, 2013
 
 */
