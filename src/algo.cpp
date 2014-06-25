@@ -437,7 +437,7 @@ void addToSeqTaxonPaths(vector<IDRank> tPath, map<IDnum, PathNode*> &seqTaxonFor
 vector<IDnum> getTaxonIDAtThreeRanks(TaxonTree *tTree, IDnum leafTaxonID){
 	vector<IDnum> taxonIDs;
 	vector<IDRank> idr = taxonomyPathIDRank(tTree, leafTaxonID);
-	IDnum phylum, genus, species;
+	IDnum phylum=0, genus=0, species=0;
 	
 	for(unsigned int index = 0; index < idr.size(); index++){
 		IDnum taxonID = idr[index].taxonID;
