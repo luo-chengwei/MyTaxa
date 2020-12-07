@@ -80,7 +80,7 @@ if($o{g}){
 	 $ctg=$ln[0];
       }elsif($o{f} eq 'gff3'){
 	 exists $ln[8] or die "Cannot parse line $., expecting 9 columns: $_\n";
-	 $ln[8] =~ /id=([^;]+)/ or die "Cannot parse line $.: $_\n";
+	 $ln[8] =~ /id=([^;]+)/i or die "Missing ID in line $.: $_\n";
 	 $id = $1;
 	 $ctg = $ln[0];
       }elsif($o{f} eq 'tab'){

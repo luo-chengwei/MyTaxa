@@ -10,6 +10,7 @@
 
 #include<vector>
 #include<map>
+#include<algorithm>
 
 #include "globals.h"
 #include "taxonomy.h"
@@ -38,6 +39,56 @@ struct gene_st{
 	vector<float> dualHist;
 	vector<float> subMTX;
 	vector<IDnum> taxonIDs;
+	
+	float min_current_bitscore(){
+		if(bitscore.size() == 0){
+			return 0;
+		}
+		float min = 100000;
+		for(vector<float>::iterator it = bitscore.begin(); it != bitscore.end(); ++it){
+			if(min > *it){
+				min = *it;
+			}
+		}
+		return min;
+	}
+	
+	float max_gap(){
+		float max_gap = 0;
+		for(unsigned int i = 0; i < bitscore.size() - 1; ++i){
+			float min, max;
+			min = (bitscore[i] < bitscore[i+1])?bitscore[i]:bitscore[i+1];
+			max = (bitscore[i] > bitscore[i+1])?bitscore[i]:bitscore[i+1];
+			float g = (max-min)/max;
+			if(g > max_gap){
+				max_gap = g;
+			}
+		}
+		return max_gap;
+	}
+	
+	void remove_min(){
+		unsigned int min_index = 0;
+		float min = 10000;
+		for(vector<float>::iterator it = bitscore.begin(); it != bitscore.end(); ++it){
+			if(min > *it){
+				min = *it;
+				min_index = it - bitscore.begin();
+			}
+		}
+		gis.erase(min_index + gis.begin());
+		bitscore.erase(min_index + bitscore.begin());
+		identity.erase(min_index + identity.begin());
+	}
+	
+	void organize_entries(){
+		if(gis.size() < 2){
+			return;
+		}
+		if(max_gap() > SCORE_DROP_THR){
+			remove_min();
+		}
+	}
 };
 
 // initializers and destroyers;
@@ -48,7 +99,7 @@ PathNode *newPathNode();
 vector<string> split(string s, char delim);
 
 // load information from input file
-vector<Sequence> loadInfoFromInputFile(const char* infile, int N);
+vector<Sequence> loadInfoFromInputFile(const char* infile);
 
 void loadGI2TaxonLibFromFile(const char* gi2taxonFile, vector<Sequence> &QuerySeq);
 

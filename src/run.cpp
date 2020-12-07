@@ -1,6 +1,6 @@
 /*
 
-	This file is part of MyTaxa by Chengwei Luo (luo.chengwei@gatech.edu)
+	This file is part of MeTaxa by Chengwei Luo (luo.chengwei@gatech.edu)
     Konstantinidis Lab, Georgia Institute of Technology, 2013
 
 */
@@ -21,12 +21,11 @@ using namespace std;
 void printUsage()
 {
 	cout << "#############################################################################################" << endl;
-	cout << "MyTaxa: an advanced taxonomy classifier for metagenomic and genomic sequences" <<endl;
+	cout << "MeTaxa: an advanced taxonomy classifier for metagenomic and genomic sequences" <<endl;
 	cout << "Version: " << VERSION_NUMBER << ".";
 	cout << RELEASE_NUMBER << "." << UPDATE_NUMBER << endl;
 	cout << "Usage:" << endl;
-	cout << "MyTaxa <input file> <output file> ";
-	cout << "<score cutoff> <num of hit to use>" << endl;
+	cout << "MeTaxa <input file> <output file> <score cutoff>";
 	cout << "## [Format of input file]:" << endl;
 	cout << "\tBased on blast -m 8 output format, for each blast-like output line," << endl;
 	cout << "\tadd additional 3 tab delimited columns to each line:" << endl;
@@ -47,18 +46,16 @@ public:
 	const char* inputFile;
 	const char* outputFile;
 	float scoreThr;
-	int numHits;
 		
 	void printArgs(){
 		cout << "## The input file is: " << inputFile << endl;
 		cout << "## The output will be stored at: " << outputFile << endl;
 		cout << "## The output score cutoff is: " << scoreThr <<endl;
-		cout << "## The number of hits used per gene is: "<< numHits << endl;
 	}
 }Args;
 
 void initArgs(int argc, char** argv, commandArgs &Args){
-	if (argc != 5) {
+	if (argc != 4) {
 		throw myex;
 	}else{
 		try{
@@ -68,7 +65,6 @@ void initArgs(int argc, char** argv, commandArgs &Args){
 			}
 			Args.outputFile = argv[2];
 			Args.scoreThr = atof(argv[3]);
-			Args.numHits = atoi(argv[4]);
 		}catch(exception &e){
 			cerr << "Argument error: " << e.what() << endl;
 			exit(1);
@@ -131,9 +127,11 @@ int main(int argc, char** argv){
 	cout << "Loading input file..." << endl;
 	vector<Sequence> QuerySeq;
 	QuerySeq.clear();
-	QuerySeq = loadInfoFromInputFile(Args.inputFile, Args.numHits);
+	QuerySeq = loadInfoFromInputFile(Args.inputFile);
+	vector<string> seqNames;
+//	return 0;	
 	cout << "Done!" << endl;	
-
+	
 	// load pre-calculated parameters
 	// step 1, load GI->taxonID
 	cout << "Loading gi2taxonID library..." << endl;
