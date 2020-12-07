@@ -2,7 +2,7 @@
 
 #
 # @author Luis M. Rodriguez-R <lmrodriguezr at gmail dot com>
-# @update June 17 2013
+# @update Dec 07 2020
 # @license artistic license 2.0
 #
 
@@ -13,12 +13,12 @@ use Getopt::Std;
 
 sub HELP_MESSAGE { die "
 Usage:
-   $0 [options] genes.txt blast.txt ... > blast_metaxa.txt
+   $0 [options] genes.txt blast.txt ... > blast_mytaxa.txt
 
    genes.gff2		File containing the genes in any supported format
    			(see option -f).
    blast.txt ...	One or more tabular BLAST files.
-   blast_metaxa.txt	Input file for MeTaxa.
+   blast_metaxa.txt	Input file for MyTaxa.
 
    Options:
    -l <float>		Minimum fraction of the gene aligned to consider a
@@ -79,7 +79,7 @@ if($o{f} ne 'no'){
 
 my $i=0;
 my $p=0;
-print STDERR "Generating MeTaxa input.\n" unless $o{q};
+print STDERR "Generating MyTaxa input.\n" unless $o{q};
 for my $blast (@blasts){
    print STDERR "  o $blast\n" unless $o{q};
    open BLAST, "<", $blast or die "Cannot read file: $blast: $!\n";
@@ -91,9 +91,14 @@ for my $blast (@blasts){
       if($o{f} eq 'no'){
          $ctg = $l[0];
       }else{
-	 exists $gene{$l[0]} or die "Cannot find contig for gene $l[0].\n";
-	 next unless $l[3] >= $o{l}*$gene{$l[0]}->[1];
-	 $ctg = $gene{$l[0]}->[0];
+	 my $gene_id = $l[0];
+	 $gene_id =~ s/\|.*// if not exists $gene{$gene_id};
+	 if(not exists $gene{$gene_id} and $gene_id =~ m/^gene_(\d+)$/){
+	   $gene_id = "gene_id_$1";
+	 }
+	 exists $gene{$gene_id} or die "Cannot find contig for gene $l[0] ($gene_id).\n";
+	 next unless $l[3] >= $o{l}*$gene{$gene_id}->[1];
+	 $ctg = $gene{$gene_id}->[0];
       }
       $l[1] =~ m/gi\|(\d+)\|/ or die "Cannot parse GI in $l[1].\n";
       print "".join("\t", @l, $ctg, $l[0], $1)."\n";
